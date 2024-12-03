@@ -13,8 +13,8 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <div className='w-full bg-[#213343]'>
-        <div className='max-w-7xl flex justify-center p-10 px-20'>
+      <div className='w-full bg-[#213343] flex justify-center'>
+        <div className='max-w-7xl p-10 px-10'>
       <footer className="font-sans tracking-wide">
   <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-2">
     {/* 1st row  */}
@@ -758,11 +758,10 @@ function Footer() {
         </div>
     </div>
   </div>
-
-
       </footer>
       </div>
       </div>
+      {/* all reserve line  */}
       <div className='bg-[#213343] flex justify-center'>
 <div className="border-t text-center border-[#6b5f5f] w-[80%] pt-8 ">
     <p className="text-gray-300 text-[15px]">

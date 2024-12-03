@@ -4,9 +4,9 @@ import React from 'react'
 function BrowsVideo() {
   return (
     <div>
-        <div className='w-full'>
+        <div className='w-full flex justify-center'>
             <div className='max-w-7xl p-10 px-20'>
-            <div className='p-10 flex justify-between'>
+            <div className='p-5 flex justify-between'>
                         <h1 className='text-3xl font-semibold text-gray-800'>Browse Our Video</h1>
                         <p className='text-blue-700 hover:underline hover:text-blue-500'>View All Video</p>
                     </div>

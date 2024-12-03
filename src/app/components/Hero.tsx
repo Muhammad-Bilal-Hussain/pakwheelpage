@@ -5,7 +5,9 @@ import React from 'react'
 function Hero() {
   return (
     <div>
-        <div className='flex h-[400px] justify-center items-center bg-gradient-to-t from-blue-900 to-[#000000] w-[100%]'>
+      <div className='w-full flex justify-center bg-gradient-to-t from-blue-900 to-[#000000]'>
+      <div className='max-w-7xl p-10 px-10'>
+        <div className='flex h-[400px] justify-center items-center '>
         <div className='mb-10 text-center'>
           <h1 className='text-white text-3xl font-medium'>Find Used Cars in Pakistan</h1>
       <p className='text-white text-[15px] font-light'>With thousands of cars, we have just the right one for you</p>
@@ -68,11 +70,14 @@ function Hero() {
     </button>
   </div>
 </div>
-
-        </div>
-        </div>
+</div>
+      </div>
+    </div>
+  </div>
         {/* 2nd div for hero  */}
-        <div className="bg-white py-40 px-4">
+        <div className='w-full flex justify-center'>
+          <div className='max-w-7xl p-10 px-10'>
+          <div className="bg-white py-40 px-4">
   <div className="max-w-6xl mx-auto text-center mb-8">
     <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800">
       Sell Your Car on PakWheels and Get the Best Price
@@ -128,9 +133,11 @@ function Hero() {
       </button>
     </div>
   </div>
-</div>
+</div>  
+          </div>
+        </div>
+      </div>
 
-    </div>
   )
 }
 

@@ -19,10 +19,10 @@ function Navbar() {
   return (
     <div>
       {/* top part  */}
-      <div className="bg-black text-white w-full">
+      <div className="bg-black text-white w-full flex justify-center">
         <div className="max-w-7xl px-10">
         <div className="">
-        <div className="flex justify-between content-center ml-2 mr-2 border-b-2 border-gray-300">
+        <div className="flex px-10 justify-between content-center ml-2 mr-2 border-b-2 border-gray-300">
       <div className="m-5">
       <p className="font-normal"><FontAwesomeIcon icon={faMobilePhone} className="mr-2 ml-2"/>Download App via SMS</p>
       </div>

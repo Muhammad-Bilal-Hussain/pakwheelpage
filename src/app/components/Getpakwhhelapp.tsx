@@ -9,8 +9,8 @@ import Image from 'next/image'
 function Getpakwhhelapp() {
   return (
     <div>
-        <div className='w-full'>
-            <div className='max-w-6xl p-10 px-28 ml-10'>
+        <div className='w-full flex justify-center'>
+            <div className='max-w-7xl p-10 px-28 ml-10'>
             <div className='flex justify-between gap-10'>
             <div className='w-[500px]'>
             <h1 className='text-3xl font-semibold text-blue-800'>Get The PakWheels App</h1>
